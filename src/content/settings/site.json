@@ -1,3 +1,7 @@
 {
-  "site_name": "Agentic CMS Coffe"
+  "id": "site",
+  "site": "https://denser.github.io",
+  "base": "/Agentic_CMS_Site",
+  "site_name": "Agentic CMS Coffe",
+  "defaultLocale": "es"
 }

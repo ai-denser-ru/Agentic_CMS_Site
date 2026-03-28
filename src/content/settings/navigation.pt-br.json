@@ -1,10 +1,22 @@
 {
-  "id": "navigation-pt-br",
+  "id": "navigation.pt-br",
   "locale": "pt-br",
   "main_menu": [
-    { "label": "Início", "href": "/" },
-    { "label": "Sobre nós", "href": "/about/" },
-    { "label": "Catálogo", "href": "/nodes/" },
-    { "label": "Contatos", "href": "#contacts" }
+    {
+      "label": "Início",
+      "href": "/"
+    },
+    {
+      "label": "Sobre nós",
+      "href": "/about/"
+    },
+    {
+      "label": "Catálogo",
+      "href": "/nodes/"
+    },
+    {
+      "label": "Contatos",
+      "href": "#contacts"
+    }
   ]
 }

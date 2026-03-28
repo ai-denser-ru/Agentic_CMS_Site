@@ -1,0 +1,27 @@
+
+> agentic-cms@0.0.1 build
+> astro build
+
+06:03:29 [content] Syncing content
+[InvalidContentEntryDataError] settings → site data does not match collection schema.
+
+  **: [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "id"
+    ],
+    "message": "id: Required"
+  }
+]
+
+  Hint:
+    See https://docs.astro.build/en/guides/content-collections/ for more information on content schemas.
+  Error reference:
+    https://docs.astro.build/en/reference/errors/invalid-content-entry-data-error/
+  Location:
+    /home/denser/DEV/Agentic_CMS/Agentic_CMS_Site/src/content/settings/site.json:0:0
+  Stack trace:
+    at getEntryData (/home/denser/DEV/Agentic_CMS/Agentic_CMS_Site/node_modules/astro/dist/content/utils.js:123:16)
+    at async eval (/home/denser/DEV/Agentic_CMS/Agentic_CMS_Site/node_modules/astro/dist/content/loaders/glob.js:211:13)

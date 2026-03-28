@@ -1,4 +1,4 @@
-import siteData from '../content/settings/site.json' assert { type: 'json' };
+import siteData from '../content/settings/site.json' with { type: 'json' };
 
 export const locales = ['es', 'pt-br', 'ru', 'en'] as const;
 export type Locale = (typeof locales)[number];

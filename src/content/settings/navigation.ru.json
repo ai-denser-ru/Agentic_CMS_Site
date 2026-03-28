@@ -1,10 +1,22 @@
 {
-  "id": "navigation-ru",
+  "id": "navigation.ru",
   "locale": "ru",
   "main_menu": [
-    { "label": "Главная", "href": "/" },
-    { "label": "О нас", "href": "/about/" },
-    { "label": "Каталог", "href": "/nodes/" },
-    { "label": "Контакты", "href": "#contacts" }
+    {
+      "label": "Главная",
+      "href": "/"
+    },
+    {
+      "label": "О нас",
+      "href": "/about/"
+    },
+    {
+      "label": "Каталог",
+      "href": "/nodes/"
+    },
+    {
+      "label": "Контакты",
+      "href": "#contacts"
+    }
   ]
 }
