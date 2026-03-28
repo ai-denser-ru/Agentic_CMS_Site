@@ -22,17 +22,15 @@ jobs:
         with:
           node-version: "22"
           cache: "npm"
-          cache-dependency-path: Agentic_CMS_Site/package-lock.json
+          cache-dependency-path: package-lock.json
       - name: Install dependencies
         run: npm ci
-        working-directory: Agentic_CMS_Site
       - name: Build
         run: npm run build
-        working-directory: Agentic_CMS_Site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./Agentic_CMS_Site/dist
+          path: ./dist
 
   deploy:
     name: Deploy
